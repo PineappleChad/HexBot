@@ -170,7 +170,7 @@
         name: "HexBot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/vulpinedesigns/HexBot/master/HexBot.js",
-        cmdLink: "http://git.io/245Ppg",
+        cmdLink: "http://git.io/xIHSoA",
         chatLink: "https://rawgit.com/vulpinedesigns/HexBot/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
