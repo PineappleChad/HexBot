@@ -41,7 +41,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/Yemasthui/HexBot/master/lang/langIndex.json", function (json) {
+        $.get("", function (json) {
             var link = HexBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -169,16 +169,16 @@
         status: false,
         name: "HexBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/Yemasthui/HexBot/master/HexBot.js",
+        scriptLink: "https://rawgit.com/vulpinedesigns/HexBot/master/HexBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/Yemasthui/HexBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/vulpinedesigns/HexBot/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         settings: {
             botName: "HexBot",
             language: "english",
-            chatLink: "https://rawgit.com/Yemasthui/HexBot/master/lang/en.json",
+            chatLink: "https://rawgit.com/vulpinedesigns/HexBot/master/lang/en.json",
             maximumAfk: 120,
             afkRemoval: true,
             maximumDc: 60,
@@ -222,8 +222,8 @@
             songstats: true,
             commandLiteral: "!",
             blacklists: {
-                NSFW: "https://rawgit.com/Yemasthui/HexBot-customization/master/blacklists/ExampleNSFWlist.json",
-                OP: "https://rawgit.com/Yemasthui/HexBot-customization/master/blacklists/ExampleOPlist.json"
+                NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+                OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
             }
         },
         room: {
