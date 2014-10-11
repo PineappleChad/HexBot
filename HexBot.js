@@ -161,7 +161,7 @@
         return m;
     };
 
-    var botCreator = "Matthew aka. vulpinedesigns";
+    var botCreator = "Jordan aka. vulpinedesigns";
     var botCreatorIDs = [];
 
     var HexBot = {
